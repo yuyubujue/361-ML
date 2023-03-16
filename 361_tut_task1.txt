@@ -1,0 +1,16 @@
+The project's title
+	Auction Verification
+
+The project category (education, environment, etc.)
+	Economy
+
+Full names of all of your team members
+	Dahai Xie, Haoting Pei, Jiahao He, Jiayi Song, Shuo Tian, Yicheng Zhang
+
+A couple of sentences of how this is related to ML for Scientific Discovery
+
+
+Link to the dataset
+	https://archive-beta.ics.uci.edu/dataset/713/auction+verification
+
+Conduct a preliminary analysis of the data
