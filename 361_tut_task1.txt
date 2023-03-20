@@ -9,13 +9,11 @@ Full names of all of your team members
 
 A couple of sentences of how this is related to ML for Scientific Discovery
 	  Our team chose the dataset of auction to test and optimize the machine learning. As the auction is quite time-consuming, we hope to find out if there is an effective algorithm to simplify the process of the auction and even can predict the result. Due to the large amount of data, we believe machine learning is the best way to achieve this goal.
-
+	  We will apply what we have learned about machine learning in this project. Machine learning is a good and useful tool for solving many practical problems. Machine learning continuously studies how to use experience to improve the performance of the system itself through computational means. Machine learning is constantly studying how to use experience to improve the performance of the system itself through computational means. At the same time, in computer systems, "experience" is usually stored as "data" in the project. We will discuss the direction we want to take, and we hope to improve the algorithm of the project through group work throughout the semester, using a variety of algorithms and models in machine learning to compare and test the most suitable solution. A classical scenario. We compose a dataset and test set based on actual times and results from past histories. By using machine learning knowledge to build a model, we write code for specific features of the data, and finally compare the results in multiple codes which means finding out whether the accuracy of expensive verification of complex process models can be replaced by outcome prediction. We are looking forward to the next series of activities to learn about the machine and to discuss it in order to complete this project.
+	  
 Link to the dataset
-	https://archive-beta.ics.uci.edu/dataset/713/auction+verification
-
-Conduct a preliminary analysis of the data
+        Conduct a preliminary analysis of the data
 
 Contribution
-
-	We use github to do the version control, so the contribution is clearly shown on the github
+        We use github to do the version control, so the contribution is clearly shown on the github
 	Link to repository: https://github.com/yuyubujue/361-ML
