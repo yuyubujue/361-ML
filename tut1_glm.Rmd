@@ -1,0 +1,18 @@
+---
+title: "tut1"
+output: html_document
+date: "2023-03-20"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+data.df=read.table("data.csv", header = 9, sep = ',')
+```
+
+```{r}
+model <- glm.nb(property.winner ~ property.product + property.price + process.b1.capacity + process.b2.capacity + process.b3.capacity + process.b4.capacity, data = data.df)
+summary(model)
+```
