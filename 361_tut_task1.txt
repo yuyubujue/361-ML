@@ -14,3 +14,8 @@ Link to the dataset
 	https://archive-beta.ics.uci.edu/dataset/713/auction+verification
 
 Conduct a preliminary analysis of the data
+
+Contribution
+
+	We use github to do the version control, so the contribution is clearly shown on the github
+	Link to repository: https://github.com/yuyubujue/361-ML
