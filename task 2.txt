@@ -1,6 +1,6 @@
 2. What machine learning techniques are you planning to apply or improve upon?
 
-Since the answer of the problem definited, so we will use classifier to solve our problem. 
-The Random Forest classifer is a proper solution since the accurancy of random forest classifer is higher than decision tree.
-The only feature that we need to do the pre-processing is verification.time, the measures of dispersion for this feature is relatively high, so we need to focus on the processing of  verification.time.
-And we will use sklearn.ensemble.RandomForestClassifier to generate the model, which will be implemented in python.
+Since the answer of the problem is definite,  we will use classifier to solve our problem. 
+The Random Forest classifier is a proper solution since the accuracy of random forest classifier is higher than decision tree.
+The only feature that we need to do the preprocessing is verification.time because the measures of dispersion for this feature is relatively high.Hence we need to focus on the processing of  verification.time.
+At last we will use sklearn.ensemble.RandomForestClassifier to generate the model, which will be implemented in python.
