@@ -1,6 +1,8 @@
-2. What machine learning techniques are you planning to apply or improve upon?
-
-Since the answer of the problem is definite,  we will use classifier to solve our problem. 
+1.Our motivation and problem.
+In this article, we aim to analyze the verification of data-aware process models in the context of simultaneous multi-round auctions. 
+Our motivation is to better understand the relationships between revenue, verification results, and verification time, as well as to predict these variables based on other features of the auction and verification procedure. By doing so, we hope to improve the efficiency of the modeling and verification process, thereby optimizing auction designs and outcomes. 	
+2.The machine learning techniques we plan to apply and improve upon.
+In this study, revenue and verification time are continuous variables, so it’s a regression problem and the verification result is a categorical variable so it’s a classification problem.Subsets of data can be used for validation purposes. As a result we can utilize the Random Forest algorithm, which is capable of addressing both classification and regression problems. This algorithm can also handle the nonlinear dependencies present in the raw data effectively. Considering the sample size and our research objectives, cross-validation can also be applied for our data set is relatively discrete, 10-fold cross-validation may help us reduce the risk of overfitting associated with the Random Forest algorithm.   
 The Random Forest classifier is a proper solution since the accuracy of random forest classifier is higher than decision tree.
-The only feature that we need to do the preprocessing is verification.time because the measures of dispersion for this feature is relatively high.Hence we need to focus on the processing of  verification.time.
+The only feature that we need to do the preprocessing is verification.time because the measures of dispersion for this feature is relatively high. Hence we need to focus on the processing of verification.time.
 At last we will use sklearn.ensemble.RandomForestClassifier to generate the model, which will be implemented in python.
